@@ -1,0 +1,29 @@
+
+
+.textSection {
+  flex: 1;
+}
+
+.imageSection {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 20px;
+ text-align: center;
+}
+
+.text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.image {
+  border-radius: 12px; /* smooth rounded corners */
+}
+
