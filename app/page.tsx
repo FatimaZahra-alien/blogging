@@ -5,6 +5,27 @@ import Link from "next/link";
 import { Share2 } from "lucide-react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Fatima’s Blog - Home",
+  description: "Welcome to Fatima’s Blog – explore modern web development, coding tips, and personal insights.",
+  openGraph: {
+    title: "Fatima’s Blog - Home",
+    description: "Welcome to Fatima’s Blog – explore modern web development, coding tips, and personal insights.",
+    url: "https://blogging-kappa-rosy.vercel.app/",
+    siteName: "Fatima’s Blog",
+    images: [
+      {
+        url: "/al.jpg", // place an image in /public folder
+        width: 1200,
+        height: 630,
+        alt: "Fatima’s Blog Home",
+      },
+    ],
+    type: "website",
+  },
+};
 
 
 export default function Home() {

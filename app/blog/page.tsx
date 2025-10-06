@@ -1,4 +1,25 @@
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Blog - Fatima’s Blog",
+  description: "Read the latest blog posts on coding, debugging, and web development tips.",
+  openGraph: {
+    title: "Blog - Fatima’s Blog",
+    description: "Read the latest blog posts on coding, debugging, and web development tips.",
+    url: "https://blogging-kappa-rosy.vercel.app/blog",
+    siteName: "Fatima’s Blog",
+    images: [
+      {
+        url: "/al.jpg", // add your blog preview image in /public
+        width: 1200,
+        height: 630,
+        alt: "Fatima’s Blog Page",
+      },
+    ],
+    type: "website",
+  },
+};
 
 export default function BlogPage() {
   const blogs = [
