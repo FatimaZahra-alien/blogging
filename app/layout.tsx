@@ -4,8 +4,12 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 export const metadata = {
+  
   title: "Fatima’s Blog",
   description: "A modern blogging site built with Next.js and Tailwind CSS",
+   verification: {
+    google: "LjOG2oGC9klap_YzuewUGgAo2kFZ5fhhPd2a3F3Pw0k",
+   }
 };
 
 export default function RootLayout({

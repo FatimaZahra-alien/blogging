@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Share2 } from "lucide-react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-<meta name="google-site-verification" content="LjOG2oGC9klap_YzuewUGgAo2kFZ5fhhPd2a3F3Pw0k" />
+
 
 export default function Home() {
  
