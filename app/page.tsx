@@ -7,7 +7,9 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 export default function Home() {
+  <meta name="google-site-verification" content="LjOG2oGC9klap_YzuewUGgAo2kFZ5fhhPd2a3F3Pw0k" />
   return (
+    
     <div className="bg-blue-50 min-h-screen flex flex-col">
 {/* 🌄 Hero Section */}
 <section
